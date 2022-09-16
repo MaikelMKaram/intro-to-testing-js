@@ -4,7 +4,7 @@ let helloWorld = function() {
 }
 
 function sayHello(input){
-    if(input === undefined){
+    if(typeof input !== "string" || input === ""){
         return "Hello, World!"
     } else {
         return "Hello, " + input + "!"

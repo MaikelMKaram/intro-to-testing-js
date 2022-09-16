@@ -10,3 +10,13 @@ function sayHello(input){
         return "Hello, " + input + "!"
     }
 }
+
+//Exercise 10
+function isFive(){
+    return isFive()
+}
+
+//Exercise 11
+function isEven(){
+    return "";
+}
